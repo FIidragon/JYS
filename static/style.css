@@ -263,7 +263,7 @@ footer p {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-background-size: 200% 100%;
-  -webkit-animation: maskedAnimation 4s infinite linear; /* 将这一行移动到这里 */
+  -webkit-animation: maskedAnimation 4s infinite linear;
 }
 
 @keyframes maskedAnimation {
