@@ -79,10 +79,7 @@ h4 {
   border: none;
   padding: 50px 30px 0px;
   border-radius: 0;
-  background-color: transparent; /* 保持背景透明 */
-  backdrop-filter: blur(10px); /* 应用背景模糊效果 */
-  -webkit-backdrop-filter: blur(10px);
-  color: white; /* 建议设置文字颜色以确保可读性 */
+  background-color: transparent;
 }
 
 .container {
