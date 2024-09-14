@@ -81,7 +81,7 @@ h4 {
   border-radius: 0;
   background-color: transparent; /* 保持背景透明 */
   backdrop-filter: blur(10px); /* 应用背景模糊效果 */
-  -webkit-backdrop-filter: blur(10px); /* Safari浏览器兼容 */
+  -webkit-backdrop-filter: blur(10px);
   color: white; /* 建议设置文字颜色以确保可读性 */
 }
 
