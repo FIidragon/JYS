@@ -248,3 +248,30 @@ footer p {
 #aplayer {
   z-index: 20000000;
 }
+
+.text {
+  letter-spacing: 0.2rem;
+  font-size: 1.5rem;
+  background-image: -webkit-linear-gradient(
+    left,
+    #147b96,
+    #e6d205 25%,
+    #147b96 50%,
+    #e6d205 75%,
+    #147b96
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-background-size: 200% 100%;
+  -webkit-animation: maskedAnimation 4s infinite linear; /* 将这一行移动到这里 */
+}
+
+@keyframes maskedAnimation {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: -100% 0;
+  }
+}
